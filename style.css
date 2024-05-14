@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    min-width: 200px;
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    font-size: 25px;
+    /* background-image: url(images/cat.jpg); */
+    background-size: cover;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    font-family: cursive;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: lightslategray;
+}
+
+.btn:hover {
+    color: pink;
+}
+
+.btn:active {
+    background-position: 1%;
+}
